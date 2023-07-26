@@ -135,13 +135,13 @@ a {
   }
 
   .face-one.top {
-    bottom: -20%; /* Start slightly below the bottom of the screen */
-    transform: translate3d(0, 120%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);
+    bottom: -30%; /* Start slightly below the bottom of the screen */
+    transform: translate3d(0, 150%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);
   }
 
   .laptop-one.bottom {
-    top: -20%; /* Start slightly above the top of the screen */
-    transform: translate3d(0, -120%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(-15deg) skew(0, 0);
+    top: -30%; /* Start slightly above the top of the screen */
+    transform: translate3d(0, -150%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(-15deg) skew(0, 0);
   }
 }
 
