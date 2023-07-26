@@ -1288,14 +1288,20 @@ a {
 .heading-intro.align-right.text-width {
   width: 28ch;
 }
-
 .container {
   position: relative;
   width: 100%;
-  max-width: 1920px;
+  max-width: 100%;
   margin-right: auto;
   margin-left: auto;
 }
+
+@media (min-width: 1200px) {
+  .container {
+    max-width: 1920px; /* Adjust the value as needed for larger screens */
+  }
+}
+
 
 .container.flex {
   display: -webkit-box;
