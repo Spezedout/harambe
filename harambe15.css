@@ -145,6 +145,13 @@ a {
   }
 }
 
+/* Hide laptop image on desktop */
+@media (min-width: 768px) {
+  .laptop-one.bottom {
+    display: none; /* Hide the laptop image on desktop */
+  }
+}
+
 /* Define the slide-in animations */
 @keyframes slideInFromBottom {
   from {
