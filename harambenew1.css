@@ -1000,6 +1000,11 @@ a {
   -ms-flex-align: stretch;
   align-items: stretch;
 }
+@media screen and (max-width: 767px) {
+  .splide__arrows {
+    display: none;
+  }
+}
 
 .splide__arrow {
   width: 4rem;
