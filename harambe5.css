@@ -215,7 +215,7 @@ a {
 }
 
 .text-blue {
-  color: #5546ff;
+  color: #FFC354;
 }
 
 .text-black {
@@ -367,7 +367,7 @@ a {
   -webkit-align-items: center;
   -ms-flex-align: center;
   align-items: center;
-  background-color: #5546ff;
+  background-color: #FFC354;
 }
 
 .face-four {
@@ -481,7 +481,7 @@ a {
 }
 
 .bg-blue {
-  background-color: #5546ff;
+  background-color: #FFC354;
 }
 
 .bg-pink {
@@ -696,7 +696,7 @@ a {
   width: 20rem;
   height: 20rem;
   border-radius: 50%;
-  background-color: #5546ff;
+  background-color: #FFC354;
 }
 
 .flowvatar.pink {
@@ -2054,7 +2054,7 @@ a {
   -ms-flex-align: center;
   align-items: center;
   border-radius: 100%;
-  background-color: #5546ff;
+  background-color: #FFC354;
 }
 
 .pop-up-form {
