@@ -135,20 +135,34 @@ a {
   }
 
   .face-one.top {
-    bottom: -30%; /* Start slightly below the bottom of the screen */
-    transform: translate3d(0, 150%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);
+    bottom: 0;
+    animation: slideInFromBottom 1.5s ease forwards; /* Apply the slide-in animation */
   }
 
   .laptop-one.bottom {
-    top: -30%; /* Start slightly above the top of the screen */
-    transform: translate3d(0, -150%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(-15deg) skew(0, 0);
+    top: 0;
+    animation: slideInFromTop 1.5s ease forwards; /* Apply the slide-in animation */
   }
 }
 
-With this update, the face image (.face-one) will come in from the bottom of the screen with a translateY value of 100%, and the laptop image (.laptop-one) will come in from the top of the screen with a translateY value of -100%. This should create the desired effect of the face image sliding up from the bottom while the laptop image slides down from the top.
+/* Define the slide-in animations */
+@keyframes slideInFromBottom {
+  from {
+    transform: translate3d(0, 100%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);
+  }
+  to {
+    transform: translate3d(0, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);
+  }
+}
 
-As always, feel free to adjust the percentage values as needed to fine-tune the animations and positioning. Test the changes on mobile devices to ensure the images animate correctly as intended.
-
+@keyframes slideInFromTop {
+  from {
+    transform: translate3d(0, -100%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(-15deg) skew(0, 0);
+  }
+  to {
+    transform: translate3d(0, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(-15deg) skew(0, 0);
+  }
+}
 
 
 
