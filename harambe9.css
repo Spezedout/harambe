@@ -22,6 +22,8 @@
   grid-template-rows: auto auto;
   grid-row-gap: 16px;
   grid-column-gap: 16px;
+  overflow-x: hidden;
+
 }
 
 body {
@@ -1291,7 +1293,7 @@ a {
 .container {
   position: relative;
   width: 100%;
-  max-width: 100%;
+  max-width: 100%; /* Set the max-width to 100% to avoid overflow */
   margin-right: auto;
   margin-left: auto;
 }
