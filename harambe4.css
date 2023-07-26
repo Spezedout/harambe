@@ -310,7 +310,7 @@ a {
   -webkit-align-items: center;
   -ms-flex-align: center;
   align-items: center;
-  background-color: #ff7bca;
+  background-color: #4DC6FF;
 }
 
 .face-three {
@@ -485,7 +485,7 @@ a {
 }
 
 .bg-pink {
-  background-color: #ff7bca;
+  background-color: #4DC6FF;
 }
 
 .bg-green {
@@ -702,7 +702,7 @@ a {
 .flowvatar.pink {
   width: 9rem;
   height: 9rem;
-  background-color: #ff7bca;
+  background-color: #4DC6FF;
 }
 
 .flowvatar.green {
@@ -787,7 +787,7 @@ a {
 .relative.size {
   z-index: 2;
   padding-bottom: 20rem;
-  background-color: #ff7bca;
+  background-color: #4DC6FF;
 }
 
 .relative.btn {
@@ -838,7 +838,7 @@ a {
 }
 
 .heading-sm.text-pink {
-  color: #ff7bca;
+  color: #4DC6FF;
 }
 
 .heading-sm.push {
@@ -1859,7 +1859,7 @@ a {
   -webkit-align-items: center;
   -ms-flex-align: center;
   align-items: center;
-  background-color: #ff7bca;
+  background-color: #4DC6FF;
   -webkit-transform: rotate(-5deg);
   -ms-transform: rotate(-5deg);
   transform: rotate(-5deg);
@@ -2177,7 +2177,7 @@ a {
 .error-message {
   padding-top: 14px;
   border-radius: 42px;
-  background-color: #ff7bca;
+  background-color: #4DC6FF;
   text-align: center;
   text-transform: uppercase;
 }
@@ -3005,7 +3005,7 @@ a {
   }
 
   .text-pink {
-    color: #ff7bca;
+    color: #4DC6FF;
   }
 
   .text-green {
