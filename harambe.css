@@ -446,7 +446,18 @@ a {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
-  opacity: 0.5; /* Adjust the opacity as needed */
+  opacity: 0.9; /* Adjust the opacity as needed */
+  animation: expandContract 6s infinite;
+}
+
+/* CSS Animation */
+@keyframes expandContract {
+  0%, 100% {
+    transform: scale(1); /* Start and end with the original size */
+  }
+  50% {
+    transform: scale(1.2); /* Scale up to 120% at the midpoint of the animation */
+  }
 }
 
 .bg-whipe {
